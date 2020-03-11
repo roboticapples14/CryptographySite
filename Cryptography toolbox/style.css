@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    background-image: url(/backgrounds/vaporwave.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Aldrich', sans-serif;
+    background-color: rgba(255, 255, 255, 0.082);
+    background-blend-mode: lighten;
+    margin: auto;
+}
+
+h1 { 
+    color: #fff; 
+    padding: 0.5rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 50px;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+a {
+    width: 15%;
+    margin: 15px;
+}
+
+.nav {
+    width: 75%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+img {
+    height: 400px;
+    margin-top: 30px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 6px 6px black;
+}
+input {
+    margin: 20px;
+}
+.myButton {
+    margin: 10px;
+    box-shadow:inset 0px 1px 1px 0px #bbdaf7;
+    background:linear-gradient(to bottom, #eccedb 5%, #cf6c95 100%);
+	background-color: white;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #e4c1d0 15%, #cf6c95 90%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#result {
+    width: 50%;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+input {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
